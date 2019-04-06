@@ -8,7 +8,7 @@ body {
 }
 
  #my-input2 {
-    width: 200px;
+    width: 300px;
     height: 30px;
     color: #2a4870;
     text-align: center;
@@ -17,21 +17,21 @@ body {
 }
 
 #my-input {
-  width: 12%;
+  width: 10%;
   height: 60px;;
-margin-top: 30%;
+margin-top: 25%;
 background-color: #19222d;
 outline: none;
 color: #2a4870;
 border: none;
 text-align: center;
   font-size: 40px;
-  margin-left:9%;
+  margin-left:5%;
 }
 
 #my-input3 {
 
-  width: 200px;
+  width: 300px;
   height: 7%;
   margin-top: 10%;
   text-align: center;
@@ -41,7 +41,7 @@ text-align: center;
 }
 #my-input4 {
 
-  width: 200px;
+  width: 300px;
   height: 5%;
   margin-top: 15%;
   text-align: center;
