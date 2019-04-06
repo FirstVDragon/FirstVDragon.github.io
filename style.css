@@ -7,6 +7,35 @@ body {
   background-color: #10151c;
 }
 
+#rus {
+  margin-left: 140;
+    position: absolute;
+    margin-top: 280;
+    font-size: 50px;
+    color:#2a7046;
+}
+ #mat {
+   margin-left: 540;
+     position: absolute;
+     margin-top: 280;
+     font-size: 50px;
+     color:#702a69;
+ }
+ #inf {
+   margin-left: 970;
+     position: absolute;
+     margin-top: 280;
+     font-size: 50px;
+     color:#2e2a70;
+ }
+ #phy {
+   margin-left: 1380;
+     position: absolute;
+     margin-top: 280;
+     font-size: 50px;
+     color:#2a705b;
+ }
+
  #my-input2 {
     width: 300px;
     height: 30px;
