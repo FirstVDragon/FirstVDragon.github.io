@@ -49,3 +49,7 @@ position:absolute;
   color: #1e2938;
   position: absolute;
 }
+#player {
+margin-top: 37%;
+margin-left: 500;
+}

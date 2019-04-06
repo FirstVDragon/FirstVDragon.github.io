@@ -53,7 +53,7 @@ function onYouTubeIframeAPIReady() {
 // 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
 /* debugger */;
-    num = _.random(0, 40);
+    num = _.random(0, 50);
   
   setTimeout(() => {
   player.playVideoAt(num);
