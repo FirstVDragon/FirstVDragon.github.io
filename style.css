@@ -17,8 +17,8 @@ body {
 }
 
 #my-input {
-  width: 10%;
-  height: 60px;;
+  width: 125;
+  height: 60px;
 margin-top: 25%;
 background-color: #19222d;
 outline: none;
@@ -26,8 +26,8 @@ color: #2a4870;
 border: none;
 text-align: center;
   font-size: 40px;
-  margin-left: 4%;
-position: absolute;
+  margin-left:90;
+position:absolute;
 }
 
 #my-input3 {
@@ -40,7 +40,6 @@ position: absolute;
   position: absolute;
   font-size: 20px;
 }
-
 #my-input4 {
 
   width: 300px;
