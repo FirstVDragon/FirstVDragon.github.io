@@ -1,9 +1,6 @@
 var a=[];
 s=0;
 var sum=0;
-if (isNaN(document.getElementById("my-input").value)) {
-   document.getElementById("my-input").value = "";
-   }
 $(document).keypress(function (e) {
     if (e.which == 13) {
     if (document.getElementById("my-input").value != '' && !isNaN(document.getElementById("my-input").value) && document.getElementById("my-input").value >= 0 && document.getElementById("my-input").value <= 100 ) {
