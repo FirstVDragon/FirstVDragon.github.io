@@ -23,7 +23,81 @@ $(document).keypress(function (e) {
        }
     }
 });
-
+var b=[];
+s2=0;
+var sum2=0;
+$(document).keypress(function (e) {
+    if (e.which == 13) {
+    if (document.getElementById("my-input10").value != '' && !isNaN(document.getElementById("my-input10").value) && document.getElementById("my-input10").value >= 0 && document.getElementById("my-input10").value <= 100 ) {
+   
+    b[s2]=parseInt(document.getElementById("my-input10").value);
+            s2+=1;
+            sum2=0;
+            for(var i=0; i < b.length; i++) {
+						sum2+=b[i];
+						}
+							var k2= sum2 / b.length;
+              
+            document.getElementById('my-input5').innerHTML = Math.round(k2);
+						document.getElementById('my-input6').innerHTML = b[b.length-1];
+            if (b.length>1) {
+            document.getElementById('my-input7').innerHTML = b[b.length-2];
+            }
+            document.getElementById("my-input10").value = "";
+            
+       }
+    }
+});
+var c=[];
+s3=0;
+var sum3=0;
+$(document).keypress(function (e) {
+    if (e.which == 13) {
+    if (document.getElementById("my-input20").value != '' && !isNaN(document.getElementById("my-input20").value) && document.getElementById("my-input20").value >= 0 && document.getElementById("my-input20").value <= 100 ) {
+   
+    c[s3]=parseInt(document.getElementById("my-input20").value);
+            s3+=1;
+            sum3=0;
+            for(var i=0; i < c.length; i++) {
+						sum3+=c[i];
+						}
+							var k3= sum3 / c.length;
+              
+            document.getElementById('my-input8').innerHTML = Math.round(k3);
+						document.getElementById('my-input9').innerHTML = c[c.length-1];
+            if (c.length>1) {
+            document.getElementById('my-input11').innerHTML = c[c.length-2];
+            }
+            document.getElementById("my-input20").value = "";
+            
+       }
+    }
+});
+var d=[];
+s4=0;
+var sum4=0;
+$(document).keypress(function (e) {
+    if (e.which == 13) {
+    if (document.getElementById("my-input30").value != '' && !isNaN(document.getElementById("my-input30").value) && document.getElementById("my-input30").value >= 0 && document.getElementById("my-input30").value <= 100 ) {
+   
+    d[s4]=parseInt(document.getElementById("my-input30").value);
+            s4+=1;
+            sum4=0;
+            for(var i=0; i < d.length; i++) {
+						sum4+=d[i];
+						}
+							var k4= sum4 / d.length;
+              
+            document.getElementById('my-input12').innerHTML = Math.round(k4);
+						document.getElementById('my-input13').innerHTML = d[d.length-1];
+            if (d.length>1) {
+            document.getElementById('my-input14').innerHTML = d[d.length-2];
+            }
+            document.getElementById("my-input30").value = "";
+            
+       }
+    }
+});
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 

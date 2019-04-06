@@ -16,22 +16,7 @@ body {
     position: absolute;
 }
 
-#my-input {
-  width: 125;
-  height: 60px;
-margin-top: 25%;
-background-color: #19222d;
-outline: none;
-color: #2a4870;
-border: none;
-text-align: center;
-  font-size: 40px;
-  margin-left:90;
-position:absolute;
-}
-
 #my-input3 {
-
   width: 300px;
   height: 7%;
   margin-top: 10%;
@@ -51,5 +36,150 @@ position:absolute;
 }
 #player {
 margin-top: 37%;
-margin-left: 500;
+margin-left: 455;
+}
+
+#my-input5 {
+  margin-left: 26.5%;
+   width: 300px;
+   height: 30px;
+   color: #2a4870;
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+
+}
+#my-input6 {
+  width: 300px;
+  height: 7%;
+  margin-top: 10%;
+  text-align: center;
+  color: #243142;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 26.5%;
+}
+#my-input7 {
+  margin-left: 26.5%;
+  width: 300px;
+  height: 5%;
+  margin-top: 15%;
+  text-align: center;
+  color: #1e2938;
+  position: absolute;
+}
+#my-input8 {
+
+  margin-left: 53%;
+   width: 300px;
+   height: 30px;
+   color: #2a4870;
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+}
+#my-input9 {
+  width: 300px;
+  height: 7%;
+  margin-top: 10%;
+  text-align: center;
+  color: #243142;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 53%;
+}
+#my-input11 {
+  margin-left: 53%;
+  width: 300px;
+  height: 5%;
+  margin-top: 15%;
+  text-align: center;
+  color: #1e2938;
+  position: absolute;
+}
+#my-input12 {
+
+  margin-left: 79.5%;
+   width: 300px;
+   height: 30px;
+   color: #2a4870;
+   text-align: center;
+   font-size: 50px;
+   position: absolute;
+}
+#my-input13 {
+  width: 300px;
+  height: 7%;
+  margin-top: 10%;
+  text-align: center;
+  color: #243142;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 79.5%;
+}
+#my-input14 {
+  margin-left: 79.5%;
+  width: 300px;
+  height: 5%;
+  margin-top: 15%;
+  text-align: center;
+  color: #1e2938;
+  position: absolute;
+}
+/* my inputs*/
+
+#my-input {
+  width: 125;
+  height: 60px;
+margin-top: 25%;
+background-color: #19222d;
+outline: none;
+color: #2a4870;
+border: none;
+text-align: center;
+  font-size: 40px;
+  margin-left:90;
+position:absolute;
+}
+#my-input10 {
+  width: 125;
+  height: 60px;
+  
+margin-top: 25%;
+background-color: #19222d;
+outline: none;
+color: #2a4870;
+border: none;
+text-align: center;
+  font-size: 40px;
+  margin-left:500;
+position:absolute;
+}
+#my-input20 {
+  width: 125;
+  height: 60px;
+  
+margin-top: 25%;
+background-color: #19222d;
+outline: none;
+color: #2a4870;
+border: none;
+text-align: center;
+  font-size: 40px;
+  margin-left:930;
+position:absolute;
+}
+#my-input30 {
+  width: 125;
+  height: 60px;
+  
+margin-top: 25%;
+background-color: #19222d;
+outline: none;
+color: #2a4870;
+border: none;
+text-align: center;
+  font-size: 40px;
+  margin-left:1345;
+position:absolute;
 }
