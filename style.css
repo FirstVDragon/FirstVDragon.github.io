@@ -19,7 +19,7 @@ body {
 #my-input3 {
   width: 300px;
   height: 7%;
-  margin-top: 10%;
+  margin-top: 150;
   text-align: center;
   color: #243142;
   position: absolute;
@@ -29,7 +29,7 @@ body {
 
   width: 300px;
   height: 5%;
-  margin-top: 15%;
+  margin-top: 220;
   text-align: center;
   color: #1e2938;
   position: absolute;
@@ -40,7 +40,7 @@ margin-left: 455;
 }
 
 #my-input5 {
-  margin-left: 26.5%;
+  margin-left: 415;
    width: 300px;
    height: 30px;
    color: #2a4870;
@@ -52,25 +52,25 @@ margin-left: 455;
 #my-input6 {
   width: 300px;
   height: 7%;
-  margin-top: 10%;
+  margin-top: 150;
   text-align: center;
   color: #243142;
   position: absolute;
   font-size: 20px;
-  margin-left: 26.5%;
+  margin-left: 415;
 }
 #my-input7 {
-  margin-left: 26.5%;
+  margin-left: 415;
   width: 300px;
   height: 5%;
-  margin-top: 15%;
+  margin-top: 220;
   text-align: center;
   color: #1e2938;
   position: absolute;
 }
 #my-input8 {
 
-  margin-left: 53%;
+  margin-left: 835;
    width: 300px;
    height: 30px;
    color: #2a4870;
@@ -81,25 +81,25 @@ margin-left: 455;
 #my-input9 {
   width: 300px;
   height: 7%;
-  margin-top: 10%;
+  margin-top: 150;
   text-align: center;
   color: #243142;
   position: absolute;
   font-size: 20px;
-  margin-left: 53%;
+  margin-left: 835;
 }
 #my-input11 {
-  margin-left: 53%;
+  margin-left: 835;
   width: 300px;
   height: 5%;
-  margin-top: 15%;
+  margin-top: 220;
   text-align: center;
   color: #1e2938;
   position: absolute;
 }
 #my-input12 {
 
-  margin-left: 79.5%;
+  margin-left: 1250;
    width: 300px;
    height: 30px;
    color: #2a4870;
@@ -110,18 +110,18 @@ margin-left: 455;
 #my-input13 {
   width: 300px;
   height: 7%;
-  margin-top: 10%;
+  margin-top: 150;
   text-align: center;
   color: #243142;
   position: absolute;
   font-size: 20px;
-  margin-left: 79.5%;
+  margin-left: 1250;
 }
 #my-input14 {
-  margin-left: 79.5%;
+  margin-left: 1250;
   width: 300px;
   height: 5%;
-  margin-top: 15%;
+  margin-top: 220;
   text-align: center;
   color: #1e2938;
   position: absolute;
@@ -131,7 +131,7 @@ margin-left: 455;
 #my-input {
   width: 125;
   height: 60px;
-margin-top: 25%;
+margin-top: 375;
 background-color: #19222d;
 outline: none;
 color: #2a4870;
@@ -145,7 +145,7 @@ position:absolute;
   width: 125;
   height: 60px;
   
-margin-top: 25%;
+margin-top: 375;
 background-color: #19222d;
 outline: none;
 color: #2a4870;
@@ -159,7 +159,7 @@ position:absolute;
   width: 125;
   height: 60px;
   
-margin-top: 25%;
+margin-top: 375;
 background-color: #19222d;
 outline: none;
 color: #2a4870;
@@ -173,7 +173,7 @@ position:absolute;
   width: 125;
   height: 60px;
   
-margin-top: 25%;
+margin-top: 375;
 background-color: #19222d;
 outline: none;
 color: #2a4870;
