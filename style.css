@@ -43,10 +43,22 @@ body {
   margin-left: 710;
   margin-top: 225;
   position: absolute;
-  border-radius: 6px 6px 6px 6px;
+  border-radius: 6px 6px 0px 0px;
   text-align: center;
   color: #2d5284;
   font-size: 40px;
+}
+#minus {
+  background-color: #05060a;
+  width: 125;
+  height: 25px;
+  margin-left: 710;
+  margin-top: 285;
+  position: absolute;
+  border-radius: 0px 0px 6px 6px;
+  text-align: center;
+  color: #842d2d;
+  font-size: 15px;
 }
  #my-input2 {
     width: 300px;

@@ -1,5 +1,5 @@
 
-var summa=[];
+var summa=[70,87,87,70,85];
 var sumall;
 var a=[71,70,68];
 s=a.length;
@@ -19,14 +19,20 @@ $(document).keypress(function (e) {
 						sum+=a[i];
 						}
 							var k= sum / a.length;
-              
+              summa[0]=Math.round(k);
+              sumall=0;
+              for(var i=0; i < summa.length; i++) {
+  						sumall+=summa[i];
+  						}
+              document.getElementById('res').innerHTML = sumall;
+              document.getElementById('minus').innerHTML = sumall-444;
             document.getElementById('my-input2').innerHTML = Math.round(k);
 						document.getElementById('my-input3').innerHTML = a[a.length-1];
             if (a.length>1) {
             document.getElementById('my-input4').innerHTML = a[a.length-2];
             }
             document.getElementById("my-input").value = "";
-            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
+            
        }
     }
 });
@@ -47,14 +53,20 @@ $(document).keypress(function (e) {
 						sum2+=b[i];
 						}
 							var k2= sum2 / b.length;
-              
+              summa[1]=Math.round(k2);
+              sumall=0;
+              for(var i=0; i < summa.length; i++) {
+  						sumall+=summa[i];
+  						}
+              document.getElementById('res').innerHTML = sumall;
+              document.getElementById('minus').innerHTML = sumall-444;
             document.getElementById('my-input5').innerHTML = Math.round(k2);
 						document.getElementById('my-input6').innerHTML = b[b.length-1];
             if (b.length>1) {
             document.getElementById('my-input7').innerHTML = b[b.length-2];
             }
             document.getElementById("my-input10").value = "";
-            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
+            
        }
     }
 });
@@ -75,14 +87,20 @@ $(document).keypress(function (e) {
 						sum3+=c[i];
 						}
 							var k3= sum3 / c.length;
-              
+              summa[2]=Math.round(k3);
+              sumall=0;
+              for(var i=0; i < summa.length; i++) {
+  						sumall+=summa[i];
+  						}
+              document.getElementById('res').innerHTML = sumall;
+              document.getElementById('minus').innerHTML = sumall-444;
             document.getElementById('my-input8').innerHTML = Math.round(k3);
 						document.getElementById('my-input9').innerHTML = c[c.length-1];
             if (c.length>1) {
             document.getElementById('my-input11').innerHTML = c[c.length-2];
             }
             document.getElementById("my-input20").value = "";
-            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
+            
        }
     }
 });
@@ -104,13 +122,19 @@ $(document).keypress(function (e) {
 						sum4+=d[i];
 						}
 							var k4= sum4 / d.length;
-            
+              summa[3]=Math.round(k4);
+              sumall=0;
+              for(var i=0; i < summa.length; i++) {
+              sumall+=summa[i];
+              }
+              document.getElementById('res').innerHTML = sumall;
+              document.getElementById('minus').innerHTML = sumall-444;
             document.getElementById('my-input12').innerHTML = Math.round(k4);
 						document.getElementById('my-input13').innerHTML = d[d.length-1];
             if (d.length>1) {
             document.getElementById('my-input14').innerHTML = d[d.length-2];
             }
-            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
+            
             document.getElementById("my-input30").value = "";
             
        }
