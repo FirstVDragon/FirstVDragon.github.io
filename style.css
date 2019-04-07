@@ -5,6 +5,8 @@
 
 body {
   background-color: #10151c;
+  margin: 0;
+  margin-top: 40;
 }
 
 #rus {
@@ -90,6 +92,16 @@ body {
 #player {
 margin-top: 555;
 margin-left: 455;
+position: absolute;
+}
+#black {
+margin-top: 555;
+margin-left: 0;
+padding: 0;
+height: 390;
+background-color: black;
+width: 100%;
+position: absolute;
 }
 
 #my-input5 {
