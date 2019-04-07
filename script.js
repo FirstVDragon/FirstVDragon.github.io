@@ -1,6 +1,13 @@
-var a=[];
-s=0;
+
+var summa=[];
+var sumall;
+var a=[71,70,68];
+s=a.length;
 var sum=0;
+for(var i=0; i < a.length; i++) {
+sum+=a[i];
+}
+
 $(document).keypress(function (e) {
     if (e.which == 13) {
     if (document.getElementById("my-input").value != '' && !isNaN(document.getElementById("my-input").value) && document.getElementById("my-input").value >= 0 && document.getElementById("my-input").value <= 100 ) {
@@ -19,13 +26,16 @@ $(document).keypress(function (e) {
             document.getElementById('my-input4').innerHTML = a[a.length-2];
             }
             document.getElementById("my-input").value = "";
-            
+            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
        }
     }
 });
-var b=[];
-s2=0;
+var b=[90,70,100];
+s2=b.length;
 var sum2=0;
+for(var i=0; i < b.length; i++) {
+sum2+=b[i];
+}
 $(document).keypress(function (e) {
     if (e.which == 13) {
     if (document.getElementById("my-input10").value != '' && !isNaN(document.getElementById("my-input10").value) && document.getElementById("my-input10").value >= 0 && document.getElementById("my-input10").value <= 100 ) {
@@ -44,13 +54,16 @@ $(document).keypress(function (e) {
             document.getElementById('my-input7').innerHTML = b[b.length-2];
             }
             document.getElementById("my-input10").value = "";
-            
+            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
        }
     }
 });
-var c=[];
-s3=0;
+var c=[83,79,84,100];
+s3=c.length;
 var sum3=0;
+for(var i=0; i < c.length; i++) {
+sum3+=c[i];
+}
 $(document).keypress(function (e) {
     if (e.which == 13) {
     if (document.getElementById("my-input20").value != '' && !isNaN(document.getElementById("my-input20").value) && document.getElementById("my-input20").value >= 0 && document.getElementById("my-input20").value <= 100 ) {
@@ -69,13 +82,17 @@ $(document).keypress(function (e) {
             document.getElementById('my-input11').innerHTML = c[c.length-2];
             }
             document.getElementById("my-input20").value = "";
-            
+            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
        }
     }
 });
-var d=[];
-s4=0;
+var d=[62,70,61,61,72,80,82];
+s4=d.length;
 var sum4=0;
+for(var i=0; i < d.length; i++) {
+sum4+=d[i];
+}
+
 $(document).keypress(function (e) {
     if (e.which == 13) {
     if (document.getElementById("my-input30").value != '' && !isNaN(document.getElementById("my-input30").value) && document.getElementById("my-input30").value >= 0 && document.getElementById("my-input30").value <= 100 ) {
@@ -87,17 +104,21 @@ $(document).keypress(function (e) {
 						sum4+=d[i];
 						}
 							var k4= sum4 / d.length;
-              
+            
             document.getElementById('my-input12').innerHTML = Math.round(k4);
 						document.getElementById('my-input13').innerHTML = d[d.length-1];
             if (d.length>1) {
             document.getElementById('my-input14').innerHTML = d[d.length-2];
             }
+            document.getElementById('res').innerHTML = Math.round((sum+sum2+sum3+sum4)/(a.length+b.length+c.length+d.length));
             document.getElementById("my-input30").value = "";
             
        }
     }
 });
+
+
+
 
 
 
