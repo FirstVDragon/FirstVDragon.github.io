@@ -104,7 +104,7 @@ $(document).keypress(function (e) {
        }
     }
 });
-var d=[62,70,61,61,72,80,82];
+var d=[62,70,72,80,82,86];
 s4=d.length;
 var sum4=0;
 for(var i=0; i < d.length; i++) {
